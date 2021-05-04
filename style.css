@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+body {
+	background-color: hsl(210, 46%, 95%);
+}
+.maiContiner {
+	display: flex;
+	justify-content: center;
+	max-height: 100vw;
+	max-height: 100vh;
+	position: relative;
+}
+.continer {
+	position: absolute;
+	top: 25vh;
+	width: 60vw;
+	height: 50vh;
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: white;
+}
+.continer img {
+	max-width: 27vw;
+	height: 100%;
+}
+.contant {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 20px;
+	width: 70%;
+}
+.user {
+	display: flex;
+	justify-content: space-around;
+}
+.user .mainEm {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.name {
+	margin-left: -70px;
+	padding-top: 10px;
+	line-height: 25px;
+}
+button {
+	border: none;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+}
